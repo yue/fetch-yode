@@ -1,13 +1,13 @@
 {
-  "name": "download-yode",
-  "version": "0.1.0",
+  "name": "fetch-yode",
+  "version": "0.2.0",
   "main": "index.js",
   "bin": {
-    "download-yode": "bin.js"
+    "fetch-yode": "bin.js"
   },
   "description": "Download Yode automatically",
   "license": "Unlicense",
-  "homepage": "https://github.com/yue/download_yode",
+  "homepage": "https://github.com/yue/fetch-yode",
   "dependencies": {
     "download-yue": "2.x"
   }
