@@ -1,0 +1,14 @@
+{
+  "name": "download-yode",
+  "version": "0.1.0",
+  "main": "index.js",
+  "bin": {
+    "download-yode": "bin.js"
+  },
+  "description": "Download Yode automatically",
+  "license": "Unlicense",
+  "homepage": "https://github.com/yue/download_yode",
+  "dependencies": {
+    "download-yue": "2.x"
+  }
+}
