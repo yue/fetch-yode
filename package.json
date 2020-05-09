@@ -1,14 +1,25 @@
 {
   "name": "fetch-yode",
-  "version": "0.2.0",
-  "main": "index.js",
-  "bin": {
-    "fetch-yode": "bin.js"
-  },
+  "version": "1.0.0",
+  "main": "lib/index.js",
   "description": "Download Yode automatically",
   "license": "Unlicense",
   "homepage": "https://github.com/yue/fetch-yode",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yue/fetch-yode.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yue/fetch-yode/issues"
+  },
+  "bin": {
+    "yode": "bin/yode"
+  },
+  "scripts": {
+    "install": "node lib/install.js"
+  },
   "dependencies": {
-    "download-yue": "2.x"
+    "download-yue": "2.x",
+    "node-fetch": "2.6.0"
   }
 }
