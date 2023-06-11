@@ -1,6 +1,6 @@
 {
   "name": "fetch-yode",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "main": "lib/index.js",
   "description": "Download Yode automatically",
   "license": "Unlicense",
@@ -19,7 +19,6 @@
     "install": "node lib/install.js"
   },
   "dependencies": {
-    "download-yue": "2.x",
-    "node-fetch": "2.6.0"
+    "download-yue": "2.x"
   }
 }
